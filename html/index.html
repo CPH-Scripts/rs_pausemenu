@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pause @notschlag</title>
+  </head>
+  <body>
+    <div class="back"></div>
+    <div class="wrapper">
+      <div class="container">
+        <div class="map" onclick="openMap()">
+          <img src="map.png" />
+        </div>
+        <div class="infos">
+          <div class="title"><i class="fa-light fa-users"></i>INFORMATIONEN</div>
+          <div class="desc">
+            Wenn du noch nicht auf unserem Discord bist dann drücke
+            unten Links auf das Discord-Symbol um keine Neuigkeiten
+            mehr zu verpassen.
+
+            
+  
+          </div>
+        </div>
+        <div class="settings" onclick="openSettings()">
+          <i class="fa-light fa-gear"></i>
+          <div class="title">EINSTELLUNGEN</div>
+          <div class="desc"></div>
+        </div>
+        <div class="name pback">
+          <div class="desc">
+            <i class="fa-light fa-id-card"></i>NAME:
+            <span>David Shubin</span>
+          </div>
+          <img src="playerback.png" />
+        </div>
+        <div class="job pback">
+          <div class="desc">
+            <i class="fa-light fa-user"></i>JOB: POLICE - OFFICER
+          </div>
+          <img src="playerback.png" />
+        </div>
+        <div class="cash pback">
+          <div class="desc">
+            <i class="fa-light fa-money-bills-simple"></i>GELD: $<span
+              >12316333313</span
+            >
+          </div>
+          <img src="playerback.png" />
+        </div>
+        <div class="bank pback">
+          <div class="desc">
+            <i class="fa-light fa-building-columns"></i>BANK: $<span
+              >12316333313</span
+            >
+          </div>
+          <img src="playerback.png" />
+        </div>
+        <div class="turnoff" onclick="closeGame()">
+          <i class="fa-light fa-power-off"></i>
+          SCHLIEßE FIVEM
+        </div>
+        <div class="discord" onclick="joinDiscord()">
+          <i class="fa-brands fa-discord"></i>
+        </div>
+        <div class="continue" onclick="closemenu()">
+          <i class="fa-light fa-play"></i>
+          WEITER
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="functions.js" type="text/javascript"></script>
+  <script src="script.js" type="text/javascript"></script>
+</html>
